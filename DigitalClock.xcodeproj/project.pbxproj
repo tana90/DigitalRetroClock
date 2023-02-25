@@ -11,7 +11,7 @@
 		274404C729A79FA800A79FA8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274404C629A79FA800A79FA8 /* ContentView.swift */; };
 		274404C929A79FA800A79FA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 274404C829A79FA800A79FA8 /* Assets.xcassets */; };
 		274404CC29A79FA800A79FA8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 274404CB29A79FA800A79FA8 /* Preview Assets.xcassets */; };
-		274404D329A79FE000A79FA8 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274404D229A79FE000A79FA8 /* Fonts.swift */; };
+		274404D329A79FE000A79FA8 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274404D229A79FE000A79FA8 /* Font.swift */; };
 		274404D529A7A24C00A79FA8 /* fonts.json in Resources */ = {isa = PBXBuildFile; fileRef = 274404D429A7A24C00A79FA8 /* fonts.json */; };
 /* End PBXBuildFile section */
 
@@ -21,7 +21,7 @@
 		274404C629A79FA800A79FA8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		274404C829A79FA800A79FA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		274404CB29A79FA800A79FA8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		274404D229A79FE000A79FA8 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		274404D229A79FE000A79FA8 /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
 		274404D429A7A24C00A79FA8 /* fonts.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = fonts.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -59,7 +59,7 @@
 				274404C629A79FA800A79FA8 /* ContentView.swift */,
 				274404C829A79FA800A79FA8 /* Assets.xcassets */,
 				274404CA29A79FA800A79FA8 /* Preview Content */,
-				274404D229A79FE000A79FA8 /* Fonts.swift */,
+				274404D229A79FE000A79FA8 /* Font.swift */,
 				274404D429A7A24C00A79FA8 /* fonts.json */,
 			);
 			path = DigitalClock;
@@ -146,7 +146,7 @@
 			files = (
 				274404C729A79FA800A79FA8 /* ContentView.swift in Sources */,
 				274404C529A79FA800A79FA8 /* DigitalClockApp.swift in Sources */,
-				274404D329A79FE000A79FA8 /* Fonts.swift in Sources */,
+				274404D329A79FE000A79FA8 /* Font.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -15,7 +15,7 @@ struct ContentView: View {
     private let padding: CGFloat = 1
     private let maxScreenPoints: Int = 50
     private let color: Color = Color("AccentColor")
-    private var fonts: Fonts = Fonts()
+    private var font: Font = Font()
     private let timer = Timer.publish(every: 1,
                                       on: .current, in: .common).autoconnect()
 
@@ -66,17 +66,17 @@ extension ContentView {
         }
 
         switch value {
-            case "0": return drawPoints(for: fonts.zero, with: size)
-            case "1": return drawPoints(for: fonts.one, with: size)
-            case "2": return drawPoints(for: fonts.two, with: size)
-            case "3": return drawPoints(for: fonts.three, with: size)
-            case "4": return drawPoints(for: fonts.four, with: size)
-            case "5": return drawPoints(for: fonts.five, with: size)
-            case "6": return drawPoints(for: fonts.six, with: size)
-            case "7": return drawPoints(for: fonts.seven, with: size)
-            case "8": return drawPoints(for: fonts.eight, with: size)
-            case "9": return drawPoints(for: fonts.nine, with: size)
-            case ":": return drawPoints(for: fonts.separator, with: size)
+            case "0": return drawPoints(for: font.characters.zero, with: size)
+            case "1": return drawPoints(for: font.characters.one, with: size)
+            case "2": return drawPoints(for: font.characters.two, with: size)
+            case "3": return drawPoints(for: font.characters.three, with: size)
+            case "4": return drawPoints(for: font.characters.four, with: size)
+            case "5": return drawPoints(for: font.characters.five, with: size)
+            case "6": return drawPoints(for: font.characters.six, with: size)
+            case "7": return drawPoints(for: font.characters.seven, with: size)
+            case "8": return drawPoints(for: font.characters.eight, with: size)
+            case "9": return drawPoints(for: font.characters.nine, with: size)
+            case ":": return drawPoints(for: font.characters.separator, with: size)
             default: return AnyView(VStack { })
         }
     }
